@@ -8,7 +8,7 @@
             @stack('login_box_start')
 
             <div class="login-logo">
-                <img src="{{ asset('public/img/akaunting-logo-white.png') }}" alt="Akaunting" />
+{{--                <img src="{{ asset('public/img/akaunting-logo-white.png') }}" alt="Akaunting" />--}}
             </div>
             <!-- /.login-logo -->
 
@@ -26,7 +26,7 @@
             <!-- /.login-box-body -->
 
             <div class="login-box-footer">
-                {{ trans('footer.powered') }}: <a href="{{ trans('footer.link') }}" target="_blank">{{ trans('footer.software') }}</a>
+                Demo Site By: <a href="https://voxyard.com/" target="_blank">Voxyard Enterprise</a>
             </div>
             <!-- /.login-box-footer -->
 
